@@ -1,6 +1,6 @@
 # playwright-fluent-cucumber-ts-starter
 
-[![Build Status](https://travis-ci.org/hdorgeval/cucumber7-ts-starter.svg?branch=main)](https://travis-ci.org/hdorgeval/cucumber7-ts-starter)
+[![Build Status](https://travis-ci.org/hdorgeval/playwright-fluent-ts-cucumber7-starter.svg?branch=main)](https://travis-ci.org/hdorgeval/playwright-fluent-ts-cucumber7-starter)
 [![Build status](https://ci.appveyor.com/api/projects/status/r6ywuv0jhhdncpfo?svg=true)](https://ci.appveyor.com/project/hdorgeval/playwright-fluent-ts-cucumber7-starter)
 
 Starter project to write E2E tests with `cucumber-js v7` and `playwright-fluent` in TypeScript language.
