@@ -75,6 +75,9 @@ Before({ tags: '@recordRequests' }, async function (this: CustomWorld) {
   this.p.recordRequestsTo('/');
 });
 
+/**
+ * After each scenario hook
+ */
 After(async function (this: CustomWorld, testCase: ITestCaseHookParameter) {
   if (testCase?.result?.status === Status.FAILED && this.p) {
     const screenshot: string = await this.p.takeFullPageScreenshotAsBase64();
@@ -96,6 +99,9 @@ After(async function (this: CustomWorld, testCase: ITestCaseHookParameter) {
   }
 });
 
+/**
+ * After each scenario hook
+ */
 After(async function (this: CustomWorld) {
   await this.p.runStory(reportPageErrors, this);
   await this.p.runStory(reportFailedRequests, this);

@@ -15,8 +15,8 @@ Feature: Fill Form
     # all tags used at the scenario level are used either to :
     #   - filter tests to run on CI
     #   - change the execution behavior of the scenario (@live or @debug or @ignore)
-    #   - run a dedicated before/after hook in the steps definition file where
-
+    #   - run a dedicated before/after hook in the steps definition file
+    @foo
     Scenario: Submit a Form
         Given I input "foo.bar@baz.com" in field "Email"
         And I input "don't tel !!" in field "Password"
