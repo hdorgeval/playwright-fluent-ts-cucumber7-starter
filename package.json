@@ -1,7 +1,7 @@
 {
-  "name": "cucumber-ts-starter",
+  "name": "playwright-fluent-cucumber-ts-starter",
   "version": "1.1.0",
-  "description": "Starter project to write and debug cucumber-js features in TypeScript language",
+  "description": "Starter project to write and debug e2e tests with cucumber-js/playwright/playwright-fluent in TypeScript language",
   "main": "index.js",
   "scripts": {
     "build": "rimraf build && npm run format && npm run lint && tsc && npm run cucumber-check",
