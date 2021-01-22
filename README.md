@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/hdorgeval/cucumber7-ts-starter.svg?branch=main)](https://travis-ci.org/hdorgeval/cucumber7-ts-starter)
 [![Build status](https://ci.appveyor.com/api/projects/status/v7ing1c5m9fr0fjf?svg=true)](https://ci.appveyor.com/project/hdorgeval/cucumber7-ts-starter)
 
-Starter project to write and debug cucumber-js v7 features in TypeScript language
+Starter project to write E2E tests with `cucumber-js v7` and `playwright-fluent` in TypeScript language.
 
 ## After cloning the repo
 
@@ -33,6 +33,17 @@ In [package.json](package.json) file, modify the `cucumber` script to keep only 
 
 - tag the scenario(s) with `@only`
 - run the command `npm run only`.
+
+## To run scenarios in headfull/live mode
+
+- tag the scenario(s) with `@live`
+- run script:
+
+```sh
+npm run live
+```
+
+The browser will stay opened at the end of the tests execution.
 
 ## To ignore a scenario
 
