@@ -1,4 +1,4 @@
-# cucumber7-ts-starter
+# playwright-fluent-cucumber-ts-starter
 
 [![Build Status](https://travis-ci.org/hdorgeval/cucumber7-ts-starter.svg?branch=main)](https://travis-ci.org/hdorgeval/cucumber7-ts-starter)
 [![Build status](https://ci.appveyor.com/api/projects/status/v7ing1c5m9fr0fjf?svg=true)](https://ci.appveyor.com/project/hdorgeval/cucumber7-ts-starter)
@@ -37,11 +37,7 @@ In [package.json](package.json) file, modify the `cucumber` script to keep only 
 ## To run scenarios in headfull/live mode
 
 - tag the scenario(s) with `@live`
-- run script:
-
-```sh
-npm run live
-```
+- run the command `npm run live`
 
 The browser will stay opened at the end of the tests execution.
 
